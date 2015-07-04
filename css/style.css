@@ -428,8 +428,15 @@ th {
 
 /* Custom CSS */
 
+
+
 body {
   background-color: LightGray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
 }
 
 
@@ -447,9 +454,20 @@ body {
 
 .top-navigation .links {
   float: right;
+  margin-top: -47px;
 }
 
 .top-navigation .links li {
-margin-left: 15px;
+  margin-left: 20px;
   display: inline-block;
+}
+
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+.top-navigation .links > .active {
+  color: #4c5058;
+  font-weight: 600;
 }
