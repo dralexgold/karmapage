@@ -523,3 +523,11 @@ body {
     border-color: #cf3d0e;
     cursor: pointer;
 }
+
+/* Cases */
+
+.cases h2 {
+  font-size: 2.75em;
+  margin: 1.625rem 0 3.125rem;
+  text-align: center;
+}
