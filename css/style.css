@@ -516,7 +516,7 @@ ol, ul {
 
 .introduction h1, .introduction h3 {
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -544,7 +544,7 @@ ol, ul {
   color: white;
   display: block;
   font-size: 1.125rem;
-  margin: 0 auto;
+  margin: 1.563rem auto 0 auto;
 }
 
 .big-button:hover {
