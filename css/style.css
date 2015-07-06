@@ -565,6 +565,7 @@ ol, ul {
   font-size: 2.75em;
   margin: 1.625rem 0 3.125rem;
   text-align: center;
+  font-weight: 300;
 }
 
 .cases .content {
